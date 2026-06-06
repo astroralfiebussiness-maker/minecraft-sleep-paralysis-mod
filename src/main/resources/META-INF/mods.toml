@@ -1,0 +1,27 @@
+modLoader="javafxmod"
+loaderVersion="[1,)"
+license="MIT"
+
+[[mods]]
+modId="sleepparalysis"
+version="1.0.0"
+displayName="Sleep Paralysis"
+displayURL="https://github.com/astroralfiebussiness-maker/minecraft-sleep-paralysis-mod"
+logoFile="logo.png"
+credits="Created by astroralfiebussiness-maker"
+authors="astroralfiebussiness-maker"
+description="""Experience true terror when you sleep. Every night you wake up paralyzed, unable to move, hearing distorted cave sounds. Each night the paralysis lasts 1 second longer, starting from 5 seconds. There is no escape."""
+
+[[dependencies.sleepparalysis]]
+    modId="forge"
+    mandatory=true
+    versionRange="[52,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.sleepparalysis]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.21.1,1.22)"
+    ordering="NONE"
+    side="BOTH"
